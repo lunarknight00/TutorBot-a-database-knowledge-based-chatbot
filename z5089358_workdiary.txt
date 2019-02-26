@@ -1,0 +1,7 @@
+Week 1
+1. Made group.
+2. After discussion, decision was made to complete topic 1.
+To complete topic 1, we need some basic knowledge about dialog robot, which contains learning strategy, training set and so on..
+3. Collect basic knowledge.
+4. Try to find some examples.
+On the following days, we need to decide which type of robots we need to do.
