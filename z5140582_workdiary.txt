@@ -9,3 +9,9 @@ Accroding to our proj1.pdf, we have three choices:
 2. A student-tutor support system
 3. A household butler
 We are still discussing about which type to choose.
+WEEK 2
+We finally decieded to do student-tutor robot.
+I did some works about robot like two kind of robot, how to build a good robot, good way to build a robot.
+I already uploaded my file name as aboutagentproposal...
+We still working on our proposal..
+Now a problem is where data comes from.
