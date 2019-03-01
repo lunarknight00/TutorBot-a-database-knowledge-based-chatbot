@@ -2,3 +2,16 @@
 Week 1
 
   We formed a group and created github and Trello project with the help of tutor. During the lab, we discussed two topics with respect to the guidelines and specs. In terms of our discussion, we decided to choose topic one. 
+  
+  
+Week 2
+
+  we had a profound discussion in this week via identifying the issues we had and each team member prepare to give their thoughts and ideas.
+  With a in-depth discussion of ongoing proposal draft, we reached an agreement that we would build a tutor chatbot based on the information retrieved from handbook UNSW. By doing research on familiar projects been done and published articles, We tackled several key issues wile develop this chatbot.
+  1. where to find the database of courses?
+  2. what Q & A that the chatbot would compiled?
+  3. What the key functions we would like to represent?
+  4. How would we distinguish ourselves from other teams' work?
+  5. Which kinds of databases and tecnical stack we would like to apply in this project?
+  6. What is the arcitecture of the chatbot we would build?
+  In order to sovle these issues, we create checklists for tasks to be done within upcoming 2 weeks on Trello. In the maeantime, we assigned tasks to each team member to draft a proposal with a deadline.
