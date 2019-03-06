@@ -1,3 +1,7 @@
 Week 1
 	I made a group with three other classmates in the laboraty. Then we ask couples questions about two topics for understanding the requests of each one. After comparitions, we deicde to choose topic 1 for our team. We also try to search the tools for the project.
 	Besides, we did some plan for next several weeks such as writing proposal.
+Week2 
+This week we meet on the lab and discussed the proposal and the key feature of our project. After some comparations, we decide to build a robot for the student-tutor chat robot since there are exiting resource for our project. Besides, we continued the discussion last week which about the chosen of database, different situation in the conversation, the problem of the number of questions in database, what function we need to accomplish and row design for the robot. According to the answer from tutor, we decided the basic design and assigned the task to everyone in the team for writing proposal.
+Trying to finish my part and combine with others.
+
