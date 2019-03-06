@@ -5,3 +5,8 @@ Week2
 This week we meet on the lab and discussed the proposal and the key feature of our project. After some comparations, we decide to build a robot for the student-tutor chat robot since there are exiting resource for our project. Besides, we continued the discussion last week which about the chosen of database, different situation in the conversation, the problem of the number of questions in database, what function we need to accomplish and row design for the robot. According to the answer from tutor, we decided the basic design and assigned the task to everyone in the team for writing proposal.
 Trying to finish my part and combine with others.
 
+Week3
+This week we meet before lab for finishing the proposal and discuss the problems so far. The design of the project has been decided and written into the proposal. We discussed some functions from the feasibility and complexity, then change some points in the architecture and proposal. We also thought about the possibility of the extra features which would be different with other teams. So, we add some more epics to the proposal for partial implementation and try to build a basic interface for testing the design. 
+Still working on the project and try to use some skills of agile programming in it. But all of us agree to build the basic model for our robot, then try to make the software to be agile.
+
+
