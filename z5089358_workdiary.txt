@@ -5,3 +5,20 @@ To complete topic 1, we need some basic knowledge about dialog robot, which cont
 3. Collect basic knowledge.
 4. Try to find some examples.
 On the following days, we need to decide which type of robots we need to do.
+
+
+Week 2
+1. We made the final decision to work on project 1, student-tutor dialog system.
+2. We made a question set, which contains 8 courses, each course contains 20 questions. This is just a framework of training set. We need to fill the QA pool.
+3. I write the Technical Details, Schedule and Team Skill Set parts of proposal.
+4. I was trying to think about some creative points about the project. For example, a crawler to obtain real time data rather than existing QA pool(because the handbook maybe changes).
+
+
+Week 3
+This week, we have a hard start. The logical structure has some problems. In the beginning, I was trying to build an existing QA pool. However, it is almost impossible to collect every kinds of questions. Also, because of the question lack, it is unlikely to train a ML model to analysis the meaning similarity of keywords. So we changed our structure of question pool.
+
+1. We need to build a new question pool, which looks like a keyword-synonyms pool. When the query comes, it will search all words and find the similar keyword by fuzzy search.
+2. I modified the technical details part of proposal.
+3. We are preparing to start coding. 
+4. I tried dialogflow, realized that training set lack will lead to model training fail.
+5. Trying to fill the new keyword-synonyms pool.
