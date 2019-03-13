@@ -9,4 +9,11 @@ Week3
 This week we meet before lab for finishing the proposal and discuss the problems so far. The design of the project has been decided and written into the proposal. We discussed some functions from the feasibility and complexity, then change some points in the architecture and proposal. We also thought about the possibility of the extra features which would be different with other teams. So, we add some more epics to the proposal for partial implementation and try to build a basic interface for testing the design. 
 Still working on the project and try to use some skills of agile programming in it. But all of us agree to build the basic model for our robot, then try to make the software to be agile.
 
+Week4
+This week we finish the basic data extracter and partially compelete knowledge base which uses the source from the UNSW handbook for course infromation and the texts from the stackoverflow for some specific questions such as python.
+
+We decide to use elastive search for data searching and extracting. The data would be transfer from our knowledge base to the elastive search's database for using in conversations. However, the algorithm is too simple so far, we plan to biuld more effiency method for data extract. The current idea is trying to use several key words on the course handbook and prepare some words with similer meaning for handling the different way of question from the user. 
+
+Besides, we have accomplished some very basic design of our user interface.
+
 
