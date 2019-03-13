@@ -1,0 +1,87 @@
+Elastic search with Postman
+
+1. Create a new index:
+PUT :9200/<index_name>
+Example: PUT :9200/course
+Res:
+
+{
+    "acknowledged": true,
+    "shards_acknowledged": true,
+    "index": "course"
+}
+
+2. List all indexs
+GET :9200/_cat/indices?v
+
+3. Delete index
+DELETE :9200/<index_name>
+{
+    "acknowledged": true
+}
+
+4. Add Type in index
+{
+	"mappings":{
+		"QAset":{
+			"properties":{
+				"question":{
+					"type":"text"
+				},
+				"answer":{
+					"type":"text"
+				},
+				"source":{
+					"type":"text"
+				}
+			}
+		}
+	}
+}
+
+{
+    "acknowledged": true,
+    "shards_acknowledged": true,
+    "index": "course"
+}
+
+5. Add Document in type
+POST :9200/<index_name>/<type_name>/{id} {json_data}
+{
+	"question":"Relational Algebra, Query Processing (Slides)，Hi Prof,As hi lighted in red if joint is not implemented via product, r joins s has been noted as below? ",
+	"answer":"I did not get your question.This slide says that (Natural) Join can be expressed using other RA operators (Cartesian Product,Selection, and Projection). Furthermore, since in general the number of tuples of a Join operation is much less than the number of tuples of a Product operation, Join is then not implemented using Product since the performance would be degraded.",
+	"source":"forum"
+}
+
+{
+    "_index": "course",
+    "_type": "QAset",
+    "_id": "RLV1dGkBAQ3LnVVVJNNe",
+    "_version": 1,
+    "result": "created",
+    "_shards": {
+        "total": 2,
+        "successful": 1,
+        "failed": 0
+    },
+    "_seq_no": 0,
+    "_primary_term": 1
+}
+
+6. List all Documents
+GET :9200/<index_name>/<type_name>/_search
+
+7. search
+Elastic search use particular HTTP method: GET with body.
+
+GET /course/QAset/_search
+{
+    "query": {
+        "match" : {
+            "question" : {// field name
+              "query":"joint product"
+              , "operator": "or"
+            }
+        }
+    }
+}
