@@ -15,6 +15,7 @@ Res:
 GET :9200/_cat/indices?v
 
 3. Delete index
+!!!!!!!¡¡¡¡¡¡¡¡¡¡¡¡PLEASE DON'T USE THIS¡¡¡¡¡¡¡¡¡¡¡!!!!!!!!
 DELETE :9200/<index_name>
 {
     "acknowledged": true
