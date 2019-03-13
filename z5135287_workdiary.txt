@@ -3,7 +3,6 @@ Week 1
 
   We formed a group and created github and Trello project with the help of tutor. During the lab, we discussed two topics with respect to the guidelines and specs. In terms of our discussion, we decided to choose topic one. 
   
-  
 Week 2
 
   we had a profound discussion in this week via identifying the issues we had and each team member prepare to give their thoughts and ideas.
@@ -15,3 +14,18 @@ Week 2
   5. Which kinds of databases and tecnical stack we would like to apply in this project?
   6. What is the arcitecture of the chatbot we would build?
   In order to sovle these issues, we create checklists for tasks to be done within upcoming 2 weeks on Trello. In the maeantime, we assigned tasks to each team member to draft a proposal with a deadline.
+
+Week  3
+
+A productive week, we drafted our proposal days before the deadline and determined technical stack.
+
+We had a addtional meeting for some unclear parts in our projects. We made some decisions to the key parts and done drafting proposal. In terms of some advice from tutor, we made modifications to some parts of the proposal.
+
+- We changed our aim from multiple courses to one single coure.
+- Within the domain of the course, we are subject to provide sophiscated response to the users ranged from course content related questions, coding issues and so on.  
+- There are modifications in data sources from unary UNSW handbook to multiple data sources. For now, we decide to add Stackoverflow and course forum.
+- Create a server set to deploy api and bacdend. 
+- In addition, we settled our Python boosted tecnical stack.
+
+To the next week, we plan to develop a database for the chatbot.
+
