@@ -9,12 +9,14 @@ Accroding to our proj1.pdf, we have three choices:
 2. A student-tutor support system
 3. A household butler
 We are still discussing about which type to choose.
+
 WEEK 2
 We finally decieded to do student-tutor robot.
 I did some works about robot like two kind of robot, how to build a good robot, good way to build a robot.
 I already uploaded my file name as aboutagentproposal...
 We still working on our proposal..
 Now a problem is where data comes from.
+
 WEEK 3
 Doing question things about robot dataset...
 I have done 40 questions..
@@ -26,3 +28,13 @@ CONTINUE
   but the corpus of CSE courses needs to be crawled by ourselves.
 4.We discussed the UI design in general and decided to design a framework and hand-paint a draft.
 5.Completed the design of the structure diagram.6/3/2019
+
+WEEK 4
+We thought that the construction of the database would be very troublesome because we thought we would join the entire course of the CSE Academy, but the teacher told us that we only need to join a type of course, so our main task this week is the construction of the database.   8/3/2019
+1.First we decided to use the courses that about python.
+2.We built a development environment on Google Cloud Server.
+3.Use crawler search to crawl the required data on the site.
+4.The framework of the front end is roughly built.
+5.We have roughly completed the design of the database demo and are still studying how to better access the data.
+We sometimes forget to post our progress on trello, which we should improve.
+Continue to work!   13/3/2019
