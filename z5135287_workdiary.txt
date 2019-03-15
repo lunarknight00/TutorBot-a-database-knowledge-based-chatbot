@@ -29,3 +29,22 @@ We had a addtional meeting for some unclear parts in our projects. We made some 
 
 To the next week, we plan to develop a database for the chatbot.
 
+Week 4
+
+We had a  good start of the code this week. Several things has been done.
+- ElasticSearch booseted backend has been built up on Google cloud.
+- On the half way to data extraction, due to the data sources.
+- Frontend demo has been developed roughly.
+
+In addition, we modified feew parts in our develpment with the help of tutuor.
+- Change the frontend to a easy to use, simple website.
+- Extensibly frictionless, which can apply to a personal assistant like Amazon Alexa.
+- Pay much attention on how to preprocess the Q&A data extracted from course forum.
+- Add aluxilary assisitant such as Google Diagflow into the chatbot, in terms of the case user may ask random question with an informative anwser.
+- Reassigned task to a teammate.
+
+Few tasks planed for upcoming weeks.
+- Data extraction with designed forms of data.
+- Further development of Frontend.
+- Diagflow parts wait to be added.
+- User stories.
