@@ -43,7 +43,7 @@ In addition, we modified feew parts in our develpment with the help of tutuor.
 - Add aluxilary assisitant such as Google Diagflow into the chatbot, in terms of the case user may ask random question with an informative anwser.
 - Reassigned task to a teammate.
 
-Few tasks planed for upcoming weeks.
+Few tasks planned for upcoming weeks.
 - Data extraction with designed forms of data.
 - Further development of Frontend.
 - Diagflow parts wait to be added.
