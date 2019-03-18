@@ -22,7 +22,10 @@ def reply(msg_content, user_id):
 		raise Exception('api.ai cannot reply this message')
 	if s['status']['code'] == 200:
 		print("use APIAI reply")
-		print('return code: ' + str(s['result']['fulfillment']['speech']))
+		print(str(s['result']['fulfillment']['speech']))
                 #return s['result']['fulfillment']['speech'] 
 
-reply('Hello', 1)
+question = input("Enter your question: ")
+while(question != 'quit'):
+	reply(question, 1)
+	question = input("Enter your question: ")
