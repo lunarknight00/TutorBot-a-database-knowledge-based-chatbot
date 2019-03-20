@@ -16,4 +16,9 @@ We decide to use elastive search for data searching and extracting. The data wou
 
 Besides, we have accomplished some very basic design of our user interface.
 
+Week5
+This week I am still working on the training of our robot for general conversation and try to make a version for the web app.
+The robot has been able to answer some basic questions, but it still need more intends for daily conversations. Base on our desgin, we would let the dialogflow robot to do this job.
+From the dialogflow, I think we could use that to build our own talking section and conbine with other part such as es and crawel program.
+
 
