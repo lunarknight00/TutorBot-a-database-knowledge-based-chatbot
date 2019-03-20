@@ -1,6 +1,7 @@
 # coding=utf-8
 
 # written by Henry Libo Zhuo
+# class design version
 # 2019-03-20
 
 from bs4 import BeautifulSoup
