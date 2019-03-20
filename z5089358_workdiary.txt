@@ -34,3 +34,14 @@ Detailed below.
 4. Add some test data in it.
 
 Besides, we overthrowed our previous data store structure. Instead, we are focusing on one course. We are trying to find QA set from forum and stackoverflow instead only from handbook. We are now building a document based NoSQL database which is a build-in database in Elastic Search. On the following days, we will concentrate on fill the database. 
+
+Week 5
+This week, I was mainly focusing on learning how to use elastic search to do fuzzy search. Besides, I updated the database. Put all forum data in the database.
+Detailed below.
+
+1. Build a more reasonable database.
+2. Data Cleaning.
+3. Put all forum data in the database.
+4. Learn how to use elastic search to do fuzzy search( not finished yet.)
+
+It is a brand new tool, so it takes longer than schedule to learn how to execute fuzzy search on elastic search. Sometimes, the result is not what I need. So it is an unfinished job. Next week, I will still go on that.
