@@ -38,3 +38,10 @@ We thought that the construction of the database would be very troublesome becau
 5.We have roughly completed the design of the database demo and are still studying how to better access the data.
 We sometimes forget to post our progress on trello, which we should improve.
 Continue to work!   13/3/2019
+
+WEEK 5
+1.Continue to optimize my UI interface.
+2.Waiting for the corpus and API interface provided by teammates. 18/3/2019
+3.In the design of the UI interface, I encountered some minor problems, such as alignment problems, chat bubble issues and other choices.
+4.A discussion of the following minor issues regarding the overall style of the interface.
+5.Keep working 20/3/2019
