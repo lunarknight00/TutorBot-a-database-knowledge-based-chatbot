@@ -1,7 +1,5 @@
 # coding=utf-8
-
 # written by Henry Libo Zhuo
-# class design version
 # 2019-03-20
 
 from bs4 import BeautifulSoup
@@ -12,7 +10,7 @@ import re,time,csv
 
 class WebCMS:
     base = "https://webcms3.cse.unsw.edu.au"
-    def __init__(self,username,password,path,tag = "forum",courseCode,semster,year):
+    def __init__(self,username,password,path,tag = "forum",courseCode,semster,year,multipleCourses = None):
         self.username = username
         self.password = password
         self.driver = webdriver.Chrome(path)
@@ -20,14 +18,22 @@ class WebCMS:
         self.year = year
         self.semster = semster
         self.courseCode = courseCode
-        self.vips = self.extractVIP()
-        self.tags = self.
+        if multipleCourses == True:
+            self.vips = []
+        else:
+            self.vips = self.extractVIP()
+        self.tags = self.genTags()
         self.questions, self.replies = self.crawl()
-        self.Index = self.Index()
+        if multipleCourses == True:
+            self.Index = self.multipleIndex()
+        else:
+            self.Index = self.Index()
         self.SecondIndex = self.SecondIndex()
+        self.questions, self.replies = self.crawl()
+        self.tags = self.genTags()
 
     def courseURL(self):
-        return "https://webcms3.cse.unsw.edu.au/" + self.courseCode + '/' + self.year + 's'+ self.year +"/"
+        return "https://webcms3.cse.unsw.edu.au/" + self.courseCode + '/' + self.year + 's'+ self.semster +"/"
 
     def genTags(self):
         return len(self.questions)
@@ -65,10 +71,50 @@ class WebCMS:
                     continue
         return forum
 
-    def SecondIndex(self):
+    def multipleIndex(self):
+        forum0 =[]
         driver = self.driver
-        visited,forum1 = set(),list()
-        for url in self.Index:
+
+        def load_index_forum(url,browser):
+            browser.get(url)
+            time.sleep(3)
+            page = browser.page_source
+            soup = BeautifulSoup(page,"html.parser")
+            for p in soup.find_all("li",{"class":"list-group-item"}):
+                    if p.find("span",{"class":"label label-primary"}):
+                        vip = p.find("a").get_text()
+                        self.vips.append(vip)
+            table = soup.find_all("tr")
+            for row in table:
+                cols = row.find_all("td")
+                for col in cols:
+                    try:
+                        nb = int(col.get_text())
+                        if nb > 0:
+                            tmp = row.find("a").get("href")
+                            if  re.findall("forums",tmp) and len(tmp) > 22:
+                                forum0.append(base + tmp)
+                    except:
+                        continue
+
+        for courseCode in ['COMP9311','COMP3311']:
+            for year in range(15,19):
+                for i in range(1,3):                
+                    try:
+                        load_index_forum(base + courseCode + '/' + str(year) + 's'+ str(i) +"/"+"forums/",driver)
+                    except:
+                        continue
+        return forum0
+
+    def SecondIndex(self):
+        if self.multipleCourses == True:
+            index = self.multipleIndex()
+        else:
+            index = self.Index()
+        driver = self.driver
+        visited = set()
+        forum1 = []
+        for url in index:
             driver.get(url)
             page = driver.page_source
             soup = BeautifulSoup(page,"html.parser")
@@ -84,14 +130,19 @@ class WebCMS:
 
     def crawl(self.):
         driver = self.driver
-        questions,replies = list(),list()
+        questions,replies,visited = [],[],set()
         for url in forum1:
+            if url in visited:
+                continue
+            visited.add(url)
             driver.get(url)
             time.sleep(5)
             page = driver.page_source
             soup = BeautifulSoup(page,"html.parser")
-            reply, question = str(),str()
+            reply = str()
+            question = str()
             aset = soup.find_all("div",{"class":"comment-content"})
+            reply =str()
             for tmp in aset:
                 person = tmp.find("header").find("a").get_text()
                 text = tmp.get_text()
@@ -119,7 +170,7 @@ class WebCMS:
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
             for s, q, r in zip(self.tags, self.questions, self.replies):
-                writer.writerow({"Source":s,"Question": q, "reply":r})
+                writer.writerow([s, q, r])
 
     def extractVIP(self):
         driver = self.driver
