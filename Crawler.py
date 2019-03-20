@@ -130,19 +130,14 @@ class WebCMS:
 
     def crawl(self.):
         driver = self.driver
-        questions,replies,visited = [],[],set()
+        questions,replies = [],[]
         for url in forum1:
-            if url in visited:
-                continue
-            visited.add(url)
             driver.get(url)
             time.sleep(5)
             page = driver.page_source
             soup = BeautifulSoup(page,"html.parser")
-            reply = str()
-            question = str()
+            reply, question= str(), str()
             aset = soup.find_all("div",{"class":"comment-content"})
-            reply =str()
             for tmp in aset:
                 person = tmp.find("header").find("a").get_text()
                 text = tmp.get_text()
@@ -170,7 +165,7 @@ class WebCMS:
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
             for s, q, r in zip(self.tags, self.questions, self.replies):
-                writer.writerow([s, q, r])
+                writer.writerow({"Source":s,"Question": q, "reply":r})
 
     def extractVIP(self):
         driver = self.driver
