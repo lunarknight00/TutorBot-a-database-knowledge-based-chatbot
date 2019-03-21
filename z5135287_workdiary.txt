@@ -48,3 +48,13 @@ Few tasks planned for upcoming weeks.
 - Further development of Frontend.
 - Diagflow parts wait to be added.
 - User stories.
+
+Week 5
+
+I finished crawler part, which is capable of extract data from multiple course forum without modification. And all data has been passed to the backend modificated for further use. Threre are some issues we had.
+
+- Data from forums are not enough, more data are required for a chahtbot.
+- How to orgnise the data format to improve accuracy of responses of chatbot.
+- Multiple input, like voice recognition, can be added into the chatbot.
+- There is a need to develop a way to improve the fuzzy search by applying natural language process. 
+
