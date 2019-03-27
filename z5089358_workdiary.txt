@@ -45,3 +45,11 @@ Detailed below.
 4. Learn how to use elastic search to do fuzzy search( not finished yet.)
 
 It is a brand new tool, so it takes longer than schedule to learn how to execute fuzzy search on elastic search. Sometimes, the result is not what I need. So it is an unfinished job. Next week, I will still go on that.
+
+Week 6
+At the start of this week, the server was deleted at all because of misoperation. So this week, we are focusing on rebuilding a new server with all services.
+1. Rebuild the ElasticSearch
+2. Since we have been provided with WebCMS3 forum data, so this time I only import StackOverflow data in the database. 
+3. I have tried to load the given WebCMS3 json data but failed. Normal way to load the data is unlikely to load because of some format problems.
+4. I was trying to add a stemmer to ElasticSearch to retrieve the stems of words. This will be a better way to support fuzzy search.
+5. The functional ability of server is still not recovered completely. So I still need some time to recover it....
