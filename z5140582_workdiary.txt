@@ -45,3 +45,11 @@ WEEK 5
 3.In the design of the UI interface, I encountered some minor problems, such as alignment problems, chat bubble issues and other choices.
 4.A discussion of the following minor issues regarding the overall style of the interface.
 5.Keep working 20/3/2019
+
+WEEK 6
+1.Because the team member's operation was wrong, the server was deleted and I rebuilt the server.
+2.At the teacher's request, I should simplify our web interaction page. So I simplified the web interaction page.23/3/2019
+3.The work of how to build a new UI on Facebook or Twitter is still in the learning stage.
+4.Assist teammates build the database.
+5.Assist teammates in the implementation of voice recognition.
+6.Keep working 27/3/2019
