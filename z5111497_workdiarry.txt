@@ -21,4 +21,10 @@ This week I am still working on the training of our robot for general conversati
 The robot has been able to answer some basic questions, but it still need more intends for daily conversations. Base on our desgin, we would let the dialogflow robot to do this job.
 From the dialogflow, I think we could use that to build our own talking section and conbine with other part such as es and crawel program.
 
+Week 6
+
+This week I have finish the training of our robot on dialogflow for genral conversation and keep working on the voice identy. The code could identy the voice already, but the problem is that the time used is too long. I consider that the reasion is the noise from enviroment. However, I would try to make it better.
+
+On the other hand, we were trying to make a UI and test it with some backend functions. But there was an accident while we were testing. Luckyly, it didn't raise large number of issues. Because the different part could run by themselvies which means they would not be affected by some other error from different part.
+
 
