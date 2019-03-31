@@ -58,3 +58,10 @@ I finished crawler part, which is capable of extract data from multiple course f
 - Multiple input, like voice recognition, can be added into the chatbot.
 - There is a need to develop a way to improve the fuzzy search by applying natural language process. 
 
+Week 6
+
+I finished all the planned data crawing. There are bunch of data queried from Stackflow has been fed to the backend.
+For the whole team, we are in the steady pace to the goal. We finished most our parts in our initial design. And we will put things together in the upcoming week.
+
+In addition, I will work to add more data fetched from other sources and work on the backend together with the team.
+
