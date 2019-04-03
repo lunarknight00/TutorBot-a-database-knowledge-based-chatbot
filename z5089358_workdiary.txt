@@ -53,3 +53,11 @@ At the start of this week, the server was deleted at all because of misoperation
 3. I have tried to load the given WebCMS3 json data but failed. Normal way to load the data is unlikely to load because of some format problems.
 4. I was trying to add a stemmer to ElasticSearch to retrieve the stems of words. This will be a better way to support fuzzy search.
 5. The functional ability of server is still not recovered completely. So I still need some time to recover it....
+
+Week 7
+After the server is recovered, I got the chance to rebuild a fully designed database. In the new database, I put a perfect stemmer and a search engine in it. Now it works well but still adjusting the params...
+1. Rebuild the database.
+2. Build a new frame database.
+3. Set up the search engine.
+4. write a script for searching.
+5. There is a msm parameter, whose fully name is minimum should match, to control how many percents of keywords should be matched(or how many keywords). This is a vital parameter which can influence the search accuracy. I am working on find a proper number on msm. But still need some time..(unfinished work in this week).
