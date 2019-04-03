@@ -53,3 +53,12 @@ WEEK 6
 4.Assist teammates build the database.
 5.Assist teammates in the implementation of voice recognition.
 6.Keep working 27/3/2019
+
+WEEK 7
+1.There is a lot of work to do...
+2.I updated my UI design and docked it with the online corpus robot.
+3.But in the integration phase, we found a lot of problems. First we used a python-based chat bot, so my js file didn't fit well.
+4.So I have been trying to use python to interact with html. 
+5.Completed a very simple chat robot UI design and docked the api.
+6.We discussed using js or python and decided to use python. . So there are still a lot of things to do....
+7.Keep going on ...  3/4/2019
