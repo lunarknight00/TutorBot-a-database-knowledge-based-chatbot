@@ -27,4 +27,12 @@ This week I have finish the training of our robot on dialogflow for genral conve
 
 On the other hand, we were trying to make a UI and test it with some backend functions. But there was an accident while we were testing. Luckyly, it didn't raise large number of issues. Because the different part could run by themselvies which means they would not be affected by some other error from different part.
 
+Week 7
+
+This week I was working on the combination of backend and frontend. 
+
+There are some issues in the process since there is a totally different way to invoke the robot by using JavaScrip, so I tried to replace it to our robot directly, but it didn't work. Then I plan to use flask to build a semilar UI but easy to invoke the python code dynamically. 
+
+I am still working on the flask staff, it does't go well since the parameter changed.
+
 
