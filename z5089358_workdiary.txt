@@ -60,4 +60,4 @@ After the server is recovered, I got the chance to rebuild a fully designed data
 2. Build a new frame database.
 3. Set up the search engine.
 4. write a script for searching.
-5. There is a msm parameter, whose fully name is minimum should match, to control how many percents of keywords should be matched(or how many keywords). This is a vital parameter which can influence the search accuracy. I am working on find a proper number on msm. But still need some time..(unfinished work in this week).
+5. There is a msm parameter, whose fully name is minimum should match, to control how many percents of keywords should be matched(or how many keywords). This is a vital parameter which can influence the search accuracy. I am working on find a proper number on msm. But still need some time..(unfinished work in this week). Until now, a negative percentage number for msm has the best performance....
