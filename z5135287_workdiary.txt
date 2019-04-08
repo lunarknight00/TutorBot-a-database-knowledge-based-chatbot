@@ -65,3 +65,20 @@ For the whole team, we are in the steady pace to the goal. We finished most our 
 
 In addition, I will work to add more data fetched from other sources and work on the backend together with the team.
 
+Week 7
+
+This week we are keen to put things all together to build a demo of the chatbot. We developed an api for testing. In teh mean time, we still struggle on the knowledge base, it was not accurate enough.
+- TODO add more data into the knodgebase
+- TODO test its accuracy
+- TODO testing the full-stack application on a webpage
+- TODO develop a stable version of the software on cloud with public IP
+- TODO implement ijnto other platforms
+
+Week 8
+
+I started this week by try to fetch more data from other sources, which includes
+- Documentation of Postgresql
+- Documentation of MySQL
+- Documentation of W3SCHOOL
+
+The idea is to add more accuracy to the response of the system, as we notice that the responses chatbot given can be random in our current database. However, we need more data from accreted sources such as official documentation from SQL software to reach to the accuracy requirement.
