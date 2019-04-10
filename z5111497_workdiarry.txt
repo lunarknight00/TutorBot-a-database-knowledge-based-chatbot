@@ -36,3 +36,10 @@ There are some issues in the process since there is a totally different way to i
 I am still working on the flask staff, it does't go well since the parameter changed.
 
 
+Week 8
+
+This week transfer my chat robot which use dialogflow to the flask API by the advice from my teamate. Because it is easier to combin with our front-end.
+
+After some tests and debugs, the API we write has been able to be used in our javascrip file which is the main controller of our UI. The UI could show the question from user and answer from dialogflow or elastic search. Although, there are still some formate problems in output from elastic search, those problems could be solved in few days. 
+
+
