@@ -62,3 +62,11 @@ WEEK 7
 5.Completed a very simple chat robot UI design and docked the api.
 6.We discussed using js or python and decided to use python. . So there are still a lot of things to do....
 7.Keep going on ...  3/4/2019
+
+WEEK 8 
+1.Built the api of the flask framework.
+2.Completed the docking of the front end with the chat bot.
+3.The docking of the robot and the database is completed.
+4.Database optimization is in progress.
+5.Optimize for keywords entered by front-end users.
+6.Discussion plan to deploy robots to facebook, Twitter, etc.
