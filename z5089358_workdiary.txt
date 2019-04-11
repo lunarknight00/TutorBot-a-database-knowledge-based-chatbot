@@ -62,3 +62,12 @@ After the server is recovered, I got the chance to rebuild a fully designed data
 4. write a script for searching.
 5. There is a msm parameter, whose fully name is minimum should match, to control how many percents of keywords should be matched(or how many keywords). This is a vital parameter which can influence the search accuracy. I am working on find a proper number on msm. But still need some time..(unfinished work in this week). Until now, a negative percentage number for msm has the best performance....
 6. In the next week, I will focus on build a fuzzy search engine called Soundex. It can find keywords which have the similar pronunciation. That will be better for voice search.
+
+Week 8
+In this week, my job is relatively easy. So I spent time on supporting other's job.
+1. Improve the performance of ElasticSearch
+2. Provide assistance on front-end developing.
+3. Provide assistance on back-end developing.
+4. Put ElasticSearch service on Flask to provide an access service between front-end and ElasticSearch.
+
+Data quantity problem is still on working.. We are going to build a document database contains more than 10k data in it. Multi-source Q-A set will contain StackOverflow, forum, official document. In the following weeks, I will focus on help others to put all service on the server.
