@@ -1,0 +1,60 @@
+﻿SQL,"SQL has several sub-languages:
+meta-data definition language (e.g. CREATE TABLE)
+meta-data update language (e.g. ALTER TABLE)
+data update language (e.g. INSERT, UPDATE, DELETE)
+query language (SQL) (e.g. SELECT)
+Meta-data languages manage the schema.
+Data languages manipulate (sets of) tuples.
+Query languages are based on relational algebra."
+Aggregates,Aggregates reduce a collection of values into a single result.
+Triggers,Triggers are procedures stored in the database activated in response to database events (e.g. updates)
+Catalogs,"An RDBMS maintains a collection of relation instances. To do this, it also needs information about relations: name, owner, primary key of each relation
+name, data type, constraints for each attribute
+authorisation for operations on each relation
+Similarly for other DBMS objects (e.g. views, functions, triggers, ...)
+This information is stored in the system catalog."
+Relational Design and Redundancy,"A good relational database design:
+must capture all necessary attributes/associations
+do this with a minimal amount of stored information
+Minimal stored information ⇒ no redundant data.
+In database design, redundancy is generally a ""bad thing"":
+causes problems maintaining consistency after updates
+But ... redundancy may give performance improvements
+e.g. avoid a join to collect bits of data together"
+Boyce-Codd Normal Form,"A relation schema R is in BCNF w.r.t a set F of functional dependencies iff:
+for all fds X → Y in F+
+either X → Y is trivial (i.e. Y ⊂ X)
+or X is a superkey
+A DB schema is in BCNF if all relation schemas are in BCNF."
+Normal Forms,"Normalization theory defines six normal forms (NFs).
+First,Second,Third Normal Forms (1NF,2NF,3NF) (Codd 1972)
+Boyce-Codd Normal Form (BCNF) (1974)
+Fourth Normal Form (4NF) (Zaniolo 1976, Fagin 1977)
+Fifth Normal Form (5NF) (Fagin 1979)
+NF hierarachy: 5NF ⇒ 4NF ⇒ BCNF ⇒ 3NF ⇒ 2NF ⇒ 1NF
+1NF allows most redundancy; 5NF allows least redundancy."
+1NF,"all attributes have atomic values
+we assume this as part of relation al model,
+so every relation schema is in 1NF"
+2NF,"all non-key attributes fully depend on key
+(i.e. no partial dependencies)
+avoids much redundancy"
+3NF,no attributes dependent on non-key attrs
+BCNF,"(i.e. no transitive dependencies)
+avoids most remaining redundan cy"
+Relation Decomposition,"The standard transformation technique to remove redundancy:
+decompose relation R into relations S and T
+We accomplish decomposition by
+selecting (overlapping) subsets of attributes
+forming new relations based on attribute subsets"
+Third Normal Form,"A relation schema R is in 3NF w.r.t. a set F of functional dependencies iff:
+for all fds X → Y in F+
+either X → Y is trivial (i.e. Y ⊂ X)
+or X is a superkey
+or Y is a single attribute from a key
+A DB schema is in 3NF if all relation schemas are in 3NF."
+Database Design Methodology,"To achieve a ""good"" database design:
+identify attributes, entities, relationships → ER design
+map ER design to relational schema
+identify constraints (including keys and functional dependencies)
+apply BCNF/3NF algorithms to produce normalized schema"
