@@ -77,8 +77,8 @@ This week we are keen to put things all together to build a demo of the chatbot.
 Week 8
 
 I started this week by try to fetch more data from other sources, which includes
-- Documentation of Postgresql
-- Documentation of MySQL
-- Documentation of W3SCHOOL
+- Documentation of Postgresql (DONE)
+- Documentation of MySQL (NOT gonna do)
+- Documentation of W3SCHOOL (NOT gonna do)
 
 The idea is to add more accuracy to the response of the system, as we notice that the responses chatbot given can be random in our current database. However, we need more data from accreted sources such as official documentation from SQL software to reach to the accuracy requirement.
