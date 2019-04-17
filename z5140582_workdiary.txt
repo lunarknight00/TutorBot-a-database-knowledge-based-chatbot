@@ -70,3 +70,10 @@ WEEK 8
 4.Database optimization is in progress.
 5.Optimize for keywords entered by front-end users.
 6.Discussion plan to deploy robots to facebook, Twitter, etc.
+
+WEEK 9 
+1.Continue to optimize UI design, more beautiful and perfect.
+2.Modified some bugs that display errors.
+3.Optimized the design of the database, expanded the data volume of the database, and added a new data set.
+4.A microphone button has been added.
+5.Keep working on!
