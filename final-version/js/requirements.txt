@@ -1,0 +1,7 @@
+pandas==0.21.1
+requests==2.20.0
+selenium==3.141.0
+beautifulsoup4==4.7.1
+apiai==1.2.3
+flask==1.0.2
+nltk==3.4.1
