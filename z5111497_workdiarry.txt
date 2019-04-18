@@ -42,4 +42,11 @@ This week transfer my chat robot which use dialogflow to the flask API by the ad
 
 After some tests and debugs, the API we write has been able to be used in our javascrip file which is the main controller of our UI. The UI could show the question from user and answer from dialogflow or elastic search. Although, there are still some formate problems in output from elastic search, those problems could be solved in few days. 
 
+Week 9
+
+Our group meet before the lab time this week for the prepare of the final demostration. 
+
+I rewrite my code about the voice identity in html and Javascrip since the python code could not be applied properly in our system. The new programme did not affect other part of our robot, so there is not extra tests after the test about voice identity. The result of test is great. However it might not provide enough correctness for some abbreviation, it could handle the general question and transfer the data properly.
+
+The prepare of the demo is almost done after the bug about the database fixed by my teammate.
 
