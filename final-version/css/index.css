@@ -390,12 +390,12 @@ article {
 }
 
 .send-btn {
-    width: 85px;
-    height: 33px;
+    width: 70px;
+    height: 40px;
     line-height: 33px;
     text-align: center;
     float: right;
-    margin: 35px 20px;
+    margin: 45px -5px;
     border: 1px solid #00C1DE;
     background: #e2f8fb;
     border-radius: 3px;
@@ -403,12 +403,12 @@ article {
     color: #00a2ca;
 }
 .sp-btn{
-    width: 85px;
+    width: 50px;
     height: 33px;
-    line-height: 33px;
+    line-height: 10px;
     text-align: center;
     float: right;
-    margin: 70px -105px;
+    margin: 50px 10px;
     border: 1px solid #00C1DE;
     background: #e2f8fb;
     border-radius: 3px;
