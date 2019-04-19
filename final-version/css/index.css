@@ -191,7 +191,8 @@ article {
 }
 
 .robot-icon {
-    background: url(https://img.alicdn.com/tfs/TB1LIeYvQyWBuNjy0FpXXassXXa-46-46.png) center center no-repeat;
+    background: url(../images.jpg) center center no-repeat;
+    background-size: 50px;
     color: #3d5c71;
     position: absolute;
     border-radius: 46px;
