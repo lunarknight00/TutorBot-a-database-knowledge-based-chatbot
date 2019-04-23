@@ -37,7 +37,7 @@ function sendMessage(str) {
     //if(xmlHttp.readyState==4){var mesg = xmlHttp.responseText;}
 
     //if (mesg=="Sorry could't understand your question."){
-    var url = "http://127.0.0.1:5000/chat";
+    var url = "http://35.189.30.30:5000/chat";
     url = url + "/" + str;
     xmlHttp.onreadystatechange = stateChanged;
     xmlHttp.open("GET", url, true);
@@ -215,7 +215,7 @@ $(".hot-item").live("click",function(){
         alert("no,can not use ajax！");
         return;
     }
-    var url = "http://127.0.0.1:5000/chat";
+    var url = "http://35.189.30.30:5000/chat";
     url = url + "/" + testname;
     xmlHttp.onreadystatechange = stateChanged;
     xmlHttp.open("GET", url, true);
