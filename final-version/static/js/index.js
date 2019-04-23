@@ -71,8 +71,13 @@ function stateChanged(){
         var msg=xmlHttp.responseText;
         if (msg[2] != '{') {
             var str = msg;
-            var reg = new RegExp( '"' , "g" )
-            var newstr = str.replace( reg , '' );
+            var reg = new RegExp( '"' , "g" );
+            var reg1= new RegExp( 'u2026' , "gm" );
+            var reg2= new RegExp( 'u2028' , "gm" );
+            var newstr1 = str.replace( /\\/g , '' );
+            var newstr2 = newstr1.replace( reg1 , '' );
+            var newstr3 = newstr2.replace( reg2 , '' );
+            var newstr = newstr3.replace( reg , '' );
 
                     document.getElementById('talk').innerHTML += `<div class="robot" style="clear: both">
                                                         <div class="chat">
@@ -124,10 +129,9 @@ function stateChanged(){
                                                             <div class="robot-icon" style="width:46px;height: 46px;"></div>
                                                             <div class="robot-response">
                                                                 <div class="robot-chat">
-                                                                <div text-align:left; style="color:blue">Question:</div>
-                                                               <a  text-align:left;" id="0">${obj1["0"]["_source"]["question"]}</a>
                                                                <div text-align:left; style="color:red">Answer:</div>
                                                                 <a id="ans0" >${obj1["0"]["_source"]["answer"]}</a> 
+                                                                
                                                              </div>   
                                                             </div>
                                                             <span class="robot-talk-cor"></span>
