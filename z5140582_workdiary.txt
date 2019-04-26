@@ -77,3 +77,10 @@ WEEK 9
 3.Optimized the design of the database, expanded the data volume of the database, and added a new data set.
 4.A microphone button has been added.
 5.Keep working on!
+
+WEEK 10
+1.I finally completed most of the design.
+2.I am modifying some bugs.
+3.Write the front end part of the report.
+4.Optimize the performance of the robot, classify and merge the data in the database.
+5.Prepare the demo.
