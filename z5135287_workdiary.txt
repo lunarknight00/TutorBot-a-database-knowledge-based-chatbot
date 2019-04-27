@@ -92,3 +92,9 @@ In detail,
 - we are debuging the program till the final demo day
 - more features may be added in the following days 
 
+week 10
+
+-We finalize the project code and publish the chatbot online.
+-In addition, we takes much time on fixing some issues to the contetxt of chat message.
+-Preparing for the final report and demo day.
+
