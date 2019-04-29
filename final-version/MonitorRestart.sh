@@ -31,7 +31,7 @@ then
 	nohup ./kibana-6.7.1-linux-x86_64/bin/kibana >Kibanalog.log 2>&1 &
 	echo "[KB][${time}] Kibana has restarted..."
 fi
-	sleep 1
+	sleep 10
 
 done
 
