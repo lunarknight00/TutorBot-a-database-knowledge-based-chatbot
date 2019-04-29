@@ -1,0 +1,86 @@
+WEEK 1
+In the first week of the lab discussion, we decided to do project 1.
+To complete a chat bot, we have to achieve the following three basic points.
+1. A knowledge extraction/building module.
+2. A dialog builder.
+3. An Application/UI component.
+Accroding to our proj1.pdf, we have three choices:
+1. A household company assistant
+2. A student-tutor support system
+3. A household butler
+We are still discussing about which type to choose.
+
+WEEK 2
+We finally decieded to do student-tutor robot.
+I did some works about robot like two kind of robot, how to build a good robot, good way to build a robot.
+I already uploaded my file name as aboutagentproposal...
+We still working on our proposal..
+Now a problem is where data comes from.
+
+WEEK 3
+Doing question things about robot dataset...
+I have done 40 questions..
+and keep working on our proposal.. 5/3/2019
+CONTINUE
+1.I finally finished my editing work on proposal.
+2.Regarding the design of the software structure diagram, we discussed it in the group meeting.
+3.The corpus is a very important part. The daily corpus can be downloaded from the Internet, 
+  but the corpus of CSE courses needs to be crawled by ourselves.
+4.We discussed the UI design in general and decided to design a framework and hand-paint a draft.
+5.Completed the design of the structure diagram.6/3/2019
+
+WEEK 4
+We thought that the construction of the database would be very troublesome because we thought we would join the entire course of the CSE Academy, but the teacher told us that we only need to join a type of course, so our main task this week is the construction of the database.   8/3/2019
+1.First we decided to use the courses that about python.
+2.We built a development environment on Google Cloud Server.
+3.Use crawler search to crawl the required data on the site.
+4.The framework of the front end is roughly built.
+5.We have roughly completed the design of the database demo and are still studying how to better access the data.
+We sometimes forget to post our progress on trello, which we should improve.
+Continue to work!   13/3/2019
+
+WEEK 5
+1.Continue to optimize my UI interface.
+2.Waiting for the corpus and API interface provided by teammates. 18/3/2019
+3.In the design of the UI interface, I encountered some minor problems, such as alignment problems, chat bubble issues and other choices.
+4.A discussion of the following minor issues regarding the overall style of the interface.
+5.Keep working 20/3/2019
+
+WEEK 6
+1.Because the team member's operation was wrong, the server was deleted and I rebuilt the server.
+2.At the teacher's request, I should simplify our web interaction page. So I simplified the web interaction page.23/3/2019
+3.The work of how to build a new UI on Facebook or Twitter is still in the learning stage.
+4.Assist teammates build the database.
+5.Assist teammates in the implementation of voice recognition.
+6.Keep working 27/3/2019
+
+WEEK 7
+1.There is a lot of work to do...
+2.I updated my UI design and docked it with the online corpus robot.
+3.But in the integration phase, we found a lot of problems. First we used a python-based chat bot, so my js file didn't fit well.
+4.So I have been trying to use python to interact with html. 
+5.Completed a very simple chat robot UI design and docked the api.
+6.We discussed using js or python and decided to use python. . So there are still a lot of things to do....
+7.Keep going on ...  3/4/2019
+
+WEEK 8 
+1.Built the api of the flask framework.
+2.Completed the docking of the front end with the chat bot.
+3.The docking of the robot and the database is completed.
+4.Database optimization is in progress.
+5.Optimize for keywords entered by front-end users.
+6.Discussion plan to deploy robots to facebook, Twitter, etc.
+
+WEEK 9 
+1.Continue to optimize UI design, more beautiful and perfect.
+2.Modified some bugs that display errors.
+3.Optimized the design of the database, expanded the data volume of the database, and added a new data set.
+4.A microphone button has been added.
+5.Keep working on!
+
+WEEK 10
+1.I finally completed most of the design.
+2.I am modifying some bugs.
+3.Write the front end part of the report.
+4.Optimize the performance of the robot, classify and merge the data in the database.
+5.Prepare the demo.
