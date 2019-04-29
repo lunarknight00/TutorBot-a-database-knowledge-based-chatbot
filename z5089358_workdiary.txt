@@ -71,3 +71,21 @@ In this week, my job is relatively easy. So I spent time on supporting other's j
 4. Put ElasticSearch service on Flask to provide an access service between front-end and ElasticSearch.
 
 Data quantity problem is still on working.. We are going to build a document database contains more than 10k data in it. Multi-source Q-A set will contain StackOverflow, forum, official document. In the following weeks, I will focus on help others to put all service on the server.
+
+Week 9
+This week , I mainly focus on some completion work.
+1. Optimize Elastic Search
+2. Provide assistance on components connections
+3. Write report
+
+Week 10
+In this week, I found sometimes the server restarts and all service is down. So i write a automatically run script. When any service is down, it can be detected and restart.
+
+1. write daemon script
+2. Rebuild git repository
+2.1 Create new branch
+2.2 clean files
+3. Put all service into server
+4. fix some bugs
+5. write report
+6. Prepare demo
