@@ -58,7 +58,9 @@ def comprehensive_search(keyword,operator="or",\
                 fuzziness=fuzziness,msm=msm,top_n=top_n,\
                 link="http://35.189.30.30:9200/qaset/COMP9311/_search",\
                 keyword_filter=keyword_filter)
-            return json.dumps(response[2])
+            if response[0]:
+                return json.dumps(response[2])
+    return "Sorry, I don't understand what you said..."
 
 
 # print(match_search("what the fuck",msm="50%",keyword_filter=keyword_filter,fuzziness=0))
