@@ -50,3 +50,7 @@ I rewrite my code about the voice identity in html and Javascrip since the pytho
 
 The prepare of the demo is almost done after the bug about the database fixed by my teammate.
 
+Week 10
+
+This week, we finished the final check of out code and solve the problems. So, we started to write the report for this project. According to the content of the simple report, we decide to split our porject to three components. I am assigned to write the second component which is the API written in the program. I wrote a basic instruction about the general talk and voice identity, but still working on the details. 
+
